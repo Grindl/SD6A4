@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world>
+  <Bear Age="8" Hunger="very" peed="1.2">
+
+  </Bear>
+
+  <Car Age="1">
+    <Person Age="3">
+    </Person>
+  </Car>
+  
+</world>

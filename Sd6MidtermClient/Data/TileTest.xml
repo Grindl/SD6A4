@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<World>
+  <Tile Name="Grass" IsSolid="False" BlocksVision="False">
+    <Appearance SpriteSheet="Grass.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+
+  <Tile Name="Dirt" IsSolid="False" BlocksVision="False">
+    <Appearance SpriteSheet="Dirt.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+  
+  <Tile Name="Road" IsSolid="False" BlocksVision="False">
+    <Appearance SpriteSheet="cobblestonesDiffuse.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+  
+  <Tile Name="B" IsSolid="True" BlocksVision="True">
+    <Appearance SpriteSheet="cobblestonesDepth.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+
+  <Tile Name="Rock" IsSolid="True" BlocksVision="True">
+    <Appearance SpriteSheet="Stone.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+
+  <Tile Name="Water" IsSolid="True" BlocksVision="False">
+    <Appearance SpriteSheet="Water.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+
+  <Tile Name="Forest" IsSolid="False" BlocksVision="True">
+    <Appearance SpriteSheet="Forest.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+
+  <Tile Name="Sand" IsSolid="False" BlocksVision="False">
+    <Appearance SpriteSheet="Sand.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+  </Tile>
+  
+</World>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Console\CommandParser.hpp" />
+    <ClInclude Include="Code\Console\Console.hpp" />
+    <ClInclude Include="Code\Console\ConsoleLog.hpp" />
+    <ClInclude Include="Code\Console\FontHandler.hpp" />
+    <ClInclude Include="Code\Console\FontRenderer.hpp" />
+    <ClInclude Include="Code\Console\Glyph.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugAABB3.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugArrow.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugElement.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugGraphics.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugLine.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugMultiPoly.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugPoint.hpp" />
+    <ClInclude Include="Code\Debug Graphics\DebugSphere.hpp" />
+    <ClInclude Include="Code\Debug Tools\ErrorWarningAssert.hpp" />
+    <ClInclude Include="Code\Debug Tools\ProfileOutput.hpp" />
+    <ClInclude Include="Code\Debug Tools\ProfileSection.hpp" />
+    <ClInclude Include="Code\Event System\EventBroadcastNode.hpp" />
+    <ClInclude Include="Code\Event System\EventSubscriberInterface.hpp" />
+    <ClInclude Include="Code\Event System\EventSubscriberNode.hpp" />
+    <ClInclude Include="Code\Event System\EventSubscriberTest.hpp" />
+    <ClInclude Include="Code\Event System\EventSystemHandler.hpp" />
+    <ClInclude Include="Code\Event System\EventSystemHelper.hpp" />
+    <ClInclude Include="Code\Event System\NamedProperties.hpp" />
+    <ClInclude Include="Code\Importer\MaxImporter.hpp" />
+    <ClInclude Include="Code\Internal Dependencies\geometry.h" />
+    <ClInclude Include="Code\Internal Dependencies\glext.h" />
+    <ClInclude Include="Code\Internal Dependencies\pugiconfig.hpp" />
+    <ClInclude Include="Code\Internal Dependencies\pugixml.hpp" />
+    <ClInclude Include="Code\Internal Dependencies\stb_image.h" />
+    <ClInclude Include="Code\Internal Dependencies\TangentBitangentCalculator.hpp" />
+    <ClInclude Include="Code\Memory Manager\MemoryManager.hpp" />
+    <ClInclude Include="Code\Memory Manager\MemoryMetadata.hpp" />
+    <ClInclude Include="Code\Memory Manager\MemoryPool.hpp" />
+    <ClInclude Include="Code\Multithreaded\HashBufferJob.hpp" />
+    <ClInclude Include="Code\Multithreaded\JobManager.hpp" />
+    <ClInclude Include="Code\Multithreaded\LoadFileJob.hpp" />
+    <ClInclude Include="Code\Multithreaded\ReverseBufferJob.hpp" />
+    <ClInclude Include="Code\Multithreaded\ThreadedJob.hpp" />
+    <ClInclude Include="Code\Multithreaded\ThreadedWorker.hpp" />
+    <ClInclude Include="Code\Primitives\BoneVertexData.hpp" />
+    <ClInclude Include="Code\Primitives\Color3b.hpp" />
+    <ClInclude Include="Code\Primitives\Color4f.hpp" />
+    <ClInclude Include="Code\Primitives\Element.hpp" />
+    <ClInclude Include="Code\Primitives\Particle.hpp" />
+    <ClInclude Include="Code\Primitives\RenderVector.hpp" />
+    <ClInclude Include="Code\Primitives\Vector2i.hpp" />
+    <ClInclude Include="Code\Primitives\Vector2f.hpp" />
+    <ClInclude Include="Code\Primitives\Vector3f.hpp" />
+    <ClInclude Include="Code\Primitives\VertexData.hpp" />
+    <ClInclude Include="Code\Rendering\FrameBuffer.hpp" />
+    <ClInclude Include="Code\Rendering\Light.hpp" />
+    <ClInclude Include="Code\Rendering\LightManager.hpp" />
+    <ClInclude Include="Code\Rendering\Material.hpp" />
+    <ClInclude Include="Code\Rendering\OpenGLFunctions.hpp" />
+    <ClInclude Include="Code\Rendering\Renderer.hpp" />
+    <ClInclude Include="Code\Rendering\RenderWrapper.hpp" />
+    <ClInclude Include="Code\Rendering\Shader.hpp" />
+    <ClInclude Include="Code\Rendering\Skybox.hpp" />
+    <ClInclude Include="Code\Rendering\Texture.hpp" />
+    <ClInclude Include="Code\Systems\CommandletHandler.hpp" />
+    <ClInclude Include="Code\Systems\GameClock.hpp" />
+    <ClInclude Include="Code\Systems\Game.hpp" />
+    <ClInclude Include="Code\Systems\IOHandler.hpp" />
+    <ClInclude Include="Code\Systems\Player.hpp" />
+    <ClInclude Include="Code\Systems\Time Utility.hpp" />
+    <ClInclude Include="Code\Utility\StringUtility.hpp" />
+    <ClInclude Include="Code\Utility\XMLParser.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Console\CommandParser.cpp" />
+    <ClCompile Include="Code\Console\Console.cpp" />
+    <ClCompile Include="Code\Console\ConsoleLog.cpp" />
+    <ClCompile Include="Code\Console\FontHandler.cpp" />
+    <ClCompile Include="Code\Console\FontRenderer.cpp" />
+    <ClCompile Include="Code\Console\Glyph.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugAABB3.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugArrow.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugElement.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugLine.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugMultiPoly.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugPoint.cpp" />
+    <ClCompile Include="Code\Debug Graphics\DebugSphere.cpp" />
+    <ClCompile Include="Code\Debug Tools\ErrorWarningAssert.cpp" />
+    <ClCompile Include="Code\Debug Tools\ProfileSection.cpp" />
+    <ClCompile Include="Code\Event System\EventSubscriberNode.cpp" />
+    <ClCompile Include="Code\Event System\EventSystemHandler.cpp" />
+    <ClCompile Include="Code\Event System\EventSystemHelper.cpp" />
+    <ClCompile Include="Code\Event System\NamedProperties.cpp" />
+    <ClCompile Include="Code\Importer\MaxImporter.cpp" />
+    <ClCompile Include="Code\Internal Dependencies\FBO_Sample_Code.cpp" />
+    <ClCompile Include="Code\Internal Dependencies\pugixml.cpp" />
+    <ClCompile Include="Code\Internal Dependencies\stb_image.c" />
+    <ClCompile Include="Code\Internal Dependencies\TangentBitangentSample.cpp" />
+    <ClCompile Include="Code\Memory Manager\MemoryManager.cpp" />
+    <ClCompile Include="Code\Memory Manager\MemoryMetadata.cpp" />
+    <ClCompile Include="Code\Memory Manager\MemoryPool.cpp" />
+    <ClCompile Include="Code\Multithreaded\HashBufferJob.cpp" />
+    <ClCompile Include="Code\Multithreaded\JobManager.cpp" />
+    <ClCompile Include="Code\Multithreaded\LoadFileJob.cpp" />
+    <ClCompile Include="Code\Multithreaded\ReverseBufferJob.cpp" />
+    <ClCompile Include="Code\Multithreaded\ThreadedWorker.cpp" />
+    <ClCompile Include="Code\Primitives\Color3b.cpp" />
+    <ClCompile Include="Code\Primitives\Color4f.cpp" />
+    <ClCompile Include="Code\Primitives\Element.cpp" />
+    <ClCompile Include="Code\Primitives\Particle.cpp" />
+    <ClCompile Include="Code\Primitives\Vector2f.cpp" />
+    <ClCompile Include="Code\Primitives\Vector2i.cpp" />
+    <ClCompile Include="Code\Rendering\FrameBuffer.cpp" />
+    <ClCompile Include="Code\Rendering\Light.cpp" />
+    <ClCompile Include="Code\Rendering\LightManager.cpp" />
+    <ClCompile Include="Code\Rendering\Material.cpp" />
+    <ClCompile Include="Code\Rendering\OpenGLFunctions.cpp" />
+    <ClCompile Include="Code\Rendering\Renderer.cpp" />
+    <ClCompile Include="Code\Rendering\RenderWrapper.cpp" />
+    <ClCompile Include="Code\Rendering\Shader.cpp" />
+    <ClCompile Include="Code\Rendering\Texture.cpp" />
+    <ClCompile Include="Code\Systems\CommandletHandler.cpp" />
+    <ClCompile Include="Code\Systems\GameClock.cpp" />
+    <ClCompile Include="Code\Systems\IOHandler.cpp" />
+    <ClCompile Include="Code\Utility\XMLParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code\Shaders\EarthquakeFBO.fragment.glsl" />
+    <None Include="Code\Shaders\FixedFunction.fragment.glsl" />
+    <None Include="Code\Shaders\FixedFunction.vertex.glsl" />
+    <None Include="Code\Shaders\FixedFunctionFBO.fragment.glsl" />
+    <None Include="Code\Shaders\FixedFunctionFBO.vertex.glsl" />
+    <None Include="Code\Shaders\InvertSaturation.fragment.glsl" />
+    <None Include="Code\Shaders\MyFirstShader.fragment.glsl" />
+    <None Include="Code\Shaders\MyFirstShader.vertex.glsl" />
+    <None Include="Code\Shaders\MySecondShader.fragment.glsl" />
+    <None Include="Code\Shaders\MySecondShader.vertex.glsl" />
+    <None Include="Code\Shaders\Shimmering.fragment.glsl" />
+    <None Include="Code\Shaders\ShowDepthFBO.fragment.glsl" />
+    <None Include="Code\Shaders\SkinnedBones.vertex.glsl" />
+    <None Include="Code\Shaders\StencilFBO.fragment.glsl" />
+    <None Include="Code\Shaders\WavyFBO.fragment.glsl" />
+    <None Include="Demo Driver\Demo Driver\Data\boy-turbosmooth.CHUMBA" />
+    <None Include="Demo Driver\Demo Driver\Data\BOY.CHUMBA" />
+    <None Include="Demo Driver\Demo Driver\Data\Final1.CHUMBA" />
+    <None Include="Demo Driver\Demo Driver\Data\IYAMATEST.CHUMBA">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\MATRIIIX.CHUMBA" />
+    <None Include="Demo Driver\Demo Driver\Data\UnitTest.xml" />
+    <None Include="Demo Driver\Demo Driver\Data\zax_walking.CHUMBA" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20345AC2-ED76-45F6-80D1-3E5CDB96E66A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EngineCore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\Visual Studio Projects\SoftDev Post 2\EngineCore\Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents\Visual Studio Projects\SoftDev Post 2\EngineCore\Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

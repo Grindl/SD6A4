@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level Name="Valley" Dimensions="50, 50" Default="Grass">
+
+  <Blob Tile="Sand" Amount="1~3" Size="40~60" BottomLeft ="0, 0" TopRight ="30, 49"></Blob>
+
+  <Smattering Tile="Dirt" Frequency=".2" BottomLeft ="0, 0" TopRight ="49, 49"></Smattering>
+
+  <Blob Tile="Forest" Amount="21~23" Size="10~30" BottomLeft ="0, 0" TopRight ="49, 30"></Blob>
+
+  <Line Tile="Water" Amount="1"></Line>
+
+  <PlayerStart Location="20, 20"></PlayerStart>
+
+  <Smattering Tile="Rock" Frequency=".15" BottomLeft ="0, 0" TopRight ="49, 49"></Smattering>
+
+  <Blob Tile="Water" Amount="50~60" Size="2~6" BottomLeft ="0, 0" TopRight ="49, 49"></Blob>
+
+  <Squad Count="100~200" BottomLeft="0, 0" TopRight ="49, 49"></Squad>
+
+  <Stuff Entity="Barricade" Count="100~150" BottomLeft="0, 0" TopRight ="49, 49"></Stuff>
+
+  <Loot Count="40~60" BottomLeft="0, 0" TopRight ="49, 49"></Loot>
+  
+</Level>

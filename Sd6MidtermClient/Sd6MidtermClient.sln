@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sd6MidtermClient", "Sd6MidtermClient.vcxproj", "{D72C096F-366A-4DFC-9606-A4D0F81CF8B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20345AC2-ED76-45F6-80D1-3E5CDB96E66A} = {20345AC2-ED76-45F6-80D1-3E5CDB96E66A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineCore", "..\EngineCore\EngineCore.vcxproj", "{20345AC2-ED76-45F6-80D1-3E5CDB96E66A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72C096F-366A-4DFC-9606-A4D0F81CF8B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D72C096F-366A-4DFC-9606-A4D0F81CF8B8}.Debug|Win32.Build.0 = Debug|Win32
+		{D72C096F-366A-4DFC-9606-A4D0F81CF8B8}.Release|Win32.ActiveCfg = Release|Win32
+		{D72C096F-366A-4DFC-9606-A4D0F81CF8B8}.Release|Win32.Build.0 = Release|Win32
+		{20345AC2-ED76-45F6-80D1-3E5CDB96E66A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20345AC2-ED76-45F6-80D1-3E5CDB96E66A}.Debug|Win32.Build.0 = Debug|Win32
+		{20345AC2-ED76-45F6-80D1-3E5CDB96E66A}.Release|Win32.ActiveCfg = Release|Win32
+		{20345AC2-ED76-45F6-80D1-3E5CDB96E66A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

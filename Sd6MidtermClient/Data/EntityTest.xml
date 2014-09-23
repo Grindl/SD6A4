@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Root>
+
+  <Entity Name="Table">
+    <Appearance SpriteSheet="cobblestonesEmissive.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+
+    </Appearance>
+  </Entity>
+
+  <Entity Name="Barricade" Blocker="True" Hitpoints ="30" Invulnerable="False">
+    <Appearance SpriteSheet="Barricade.png" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+
+    </Appearance>  
+  </Entity>
+
+  <Item Name="Grenade" Type="0">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.015625, 0.015625" TopRight ="0.0175781, 0.0859375">
+
+    </Appearance>
+  </Item>
+
+  <Item Name="Sword" Type="0">
+    <Appearance SpriteSheet="CobblestonesNormal.png" BottomLeft="0.0, 0.0" TopRight ="1.0, 1.0">
+
+    </Appearance>
+  </Item>
+
+  <Actor Name="Person" MoveSpeed="3.1" Hitpoints="200" AttackRange="3.0" Damage="3" AttackTime="1.2">
+    <Appearance SpriteSheet="sovietunits.png" BottomLeft="0.61, 0.0" TopRight="0.64, 0.5">
+
+
+    </Appearance>
+  </Actor>
+
+  <Actor Name="WaffenSS" MoveSpeed="1.1" Hitpoints="25">
+    <Appearance SpriteSheet="nazygermanyunits.png" BottomLeft="0.0, 0.5" TopRight="0.03333, 1.0">
+
+    </Appearance>
+
+    <AI HasAHome ="true">
+    </AI>
+
+    <Loot Item="Sword" Chance=".2">
+    </Loot>
+  </Actor>
+
+  <Actor Name="Civilian" MoveSpeed ="0.9" Hitpoints="10" Faction="Civilians">
+    <Appearance SpriteSheet ="sovietunits.png">
+
+    </Appearance>
+
+    <AI FearThreshold=".9">
+
+    </AI>
+  </Actor>
+
+  <Actor Name="Bear" MoveSpeed="0.9" Hitpoints="20" Faction="Animals">
+    <Appearance SpriteSheet="" BottomLeft="0.0, 0.0" TopRight="1.0, 1.0">
+    </Appearance>
+
+    <TileAffinity Name="Forest" Cost="3" InvertCost="True">
+    </TileAffinity>
+
+  </Actor>
+
+
+  <Actor Name = "Badger" Hitpoints="100" Faction="Animals">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.015625,0.015625" TopRight="0.0175781,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+
+  <Actor Name = "Person2" Hitpoints ="30" MoveSpeed ="1.5" Faction ="Partisans">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.0332031,0.015625" TopRight="0.0429688,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="34" Name="22">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.0585938,0.015625" TopRight="0.0771484,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="35" Name="23">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.0927734,0.015625" TopRight="0.126953,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="36" Name="24">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.142578,0.015625" TopRight="0.168945,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="37" Name="25">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.18457,0.015625" TopRight="0.220703,0.0859375">
+      
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="38" Name="26">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.236328,0.015625" TopRight="0.270508,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="39" Name="27">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.286133,0.015625" TopRight="0.293945,0.0859375">
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="40" Name="28">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.30957,0.015625" TopRight="0.324219,0.0859375">
+    </Appearance>
+
+  </Actor>
+
+
+  <Actor Hitpoints="41" Name="29">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.339844,0.015625" TopRight="0.354492,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="42" Name="2a">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.370117,0.015625" TopRight="0.393555,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="43" Name="2b">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.40918,0.015625" TopRight="0.435547,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="44" Name="2c">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.451172,0.015625" TopRight="0.463867,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="45" Name="2d">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.479492,0.015625" TopRight="0.495117,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="46" Name="2e">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.510742,0.015625" TopRight="0.521484,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="47" Name="2f">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.537109,0.015625" TopRight="0.560547,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="48" Name="30">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.576172,0.015625" TopRight="0.606445,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="49" Name="31">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.62207,0.015625" TopRight="0.637695,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="50" Name="32">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.65332,0.015625" TopRight="0.680664,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="51" Name="33">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.696289,0.015625" TopRight="0.72168,0.0859375">
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="52" Name="34">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.737305,0.015625" TopRight="0.767578,0.0859375">
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="53" Name="35">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.783203,0.015625" TopRight="0.80957,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="54" Name="36">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.825195,0.015625" TopRight="0.853516,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="55" Name="37">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.869141,0.015625" TopRight="0.897461,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="56" Name="38">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.913086,0.015625" TopRight="0.941406,0.0859375">
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="57" Name="39">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.957031,0.015625" TopRight="0.985352,0.0859375">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="58" Name="3a">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.015625,0.101563" TopRight="0.0263672,0.171875">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="59" Name="3b">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.0419922,0.101563" TopRight="0.0546875,0.171875">
+
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="60" Name="3c">
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.0703125,0.101563" TopRight="0.09375,0.171875">
+
+    </Appearance>
+
+  </Actor>
+  
+  <!-- 
+  ========
+<Actor Hitpoints="61" Name="3d">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.109375,0.101563" TopRight="0.134766,0.171875">
+      0.0694444 //
+      0.361111 //
+    </Appearance>
+    0.0555556 //
+  </Actor>
+
+
+  <Actor Hitpoints="62" Name="3e">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.150391,0.101563" TopRight="0.172852,0.171875">
+      0.111111 //
+      0.319444 //
+    </Appearance>
+    0.0555556 //
+  </Actor>
+
+
+  <Actor Hitpoints="63" Name="3f">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.188477,0.101563" TopRight="0.209961,0.171875">
+      0.0277778 //
+      0.305556 //
+    </Appearance>
+    0.0277778 //
+  </Actor>
+
+
+  <Actor Hitpoints="64" Name="40">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.225586,0.101563" TopRight="0.266602,0.171875">
+      0.0277778 //
+      0.583333 //
+    </Appearance>
+    0.0277778 //
+  </Actor>
+
+
+  <Actor Hitpoints="65" Name="41">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.282227,0.101563" TopRight="0.319336,0.171875">
+
+      0.527778 //
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="66" Name="42">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.334961,0.101563" TopRight="0.363281,0.171875">
+      0.0555556 //
+      0.402778 //
+    </Appearance>
+    0.0416667 //
+  </Actor>
+
+
+  <Actor Hitpoints="67" Name="43">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.378906,0.101563" TopRight="0.410156,0.171875">
+      0.0277778 //
+      0.444444 //
+    </Appearance>
+    0.0277778 //
+  </Actor>
+
+
+  <Actor Hitpoints="68" Name="44">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.425781,0.101563" TopRight="0.456055,0.171875">
+      0.0555556 //
+      0.430556 //
+    </Appearance>
+    0.0416667 //
+  </Actor>
+
+
+  <Actor Hitpoints="69" Name="45">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.47168,0.101563" TopRight="0.498047,0.171875">
+      0.0555556 //
+      0.375 //
+    </Appearance>
+    0.0416667 //
+  </Actor>
+
+
+  <Actor Hitpoints="70" Name="46">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.513672,0.101563" TopRight="0.541016,0.171875">
+      0.0555556 //
+      0.388889 //
+    </Appearance>
+    0.0416667 //
+  </Actor>
+
+
+  <Actor Hitpoints="71" Name="47">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.556641,0.101563" TopRight="0.591797,0.171875">
+      0.0277778 //
+      0.5 //
+    </Appearance>
+    0.0277778 //
+  </Actor>
+
+
+  <Actor Hitpoints="72" Name="48">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.607422,0.101563" TopRight="0.638672,0.171875">
+      0.0555556 //
+      0.444444 //
+    </Appearance>
+    0.0694444 //
+  </Actor>
+
+
+  <Actor Hitpoints="73" Name="49">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.654297,0.101563" TopRight="0.662109,0.171875">
+      0.0555556 //
+      0.111111 //
+    </Appearance>
+    0.0694444 //
+  </Actor>
+
+
+  <Actor Hitpoints="74" Name="4a">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.677734,0.101563" TopRight="0.705078,0.171875">
+
+      0.388889 //
+    </Appearance>
+    0.0555556 //
+  </Actor>
+
+
+  <Actor Hitpoints="75" Name="4b">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.720703,0.101563" TopRight="0.75293,0.171875">
+      0.0555556 //
+      0.458333 //
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="76" Name="4c">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.768555,0.101563" TopRight="0.794922,0.171875">
+      0.0555556 //
+      0.375 //
+    </Appearance>
+    0.0277778 //
+  </Actor>
+
+
+  <Actor Hitpoints="77" Name="4d">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.810547,0.101563" TopRight="0.853516,0.171875">
+      0.0138889 //
+      0.611111 //
+    </Appearance>
+  </Actor>
+
+
+  <Actor Hitpoints="78" Name="4e">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.869141,0.101563" TopRight="0.900391,0.171875">
+      0.0555556 //
+      0.444444 //
+    </Appearance>
+    0.0555556 //
+  </Actor>
+
+
+  <Actor Hitpoints="79" Name="4f">
+
+
+
+    <Appearance SpriteSheet="MainFont_EN_00.png" BottomLeft="0.916016,0.101563" TopRight="0.953125,0.171875">
+      0.0277778 //
+      0.527778 //
+    </Appearance>
+    0.0277778 //
+  </Actor>
+ -->
+
+
+</Root>

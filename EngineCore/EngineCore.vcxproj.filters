@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{cfa4958e-1ab9-4a8a-9125-704471521d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primitives">
+      <UniqueIdentifier>{644f3195-4ed8-44fd-ab5d-b831b59dc9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{0c64e085-5927-4eab-8ded-0dc8d7911eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{8d1fb27a-c56e-4c73-a286-6f926f17e1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Graphics">
+      <UniqueIdentifier>{80af4fc6-99e6-4fd9-9836-d6423f8293e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal Dependencies">
+      <UniqueIdentifier>{878b8fe2-9017-48cf-8c4f-0dcbf78e16e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{bba88639-3a41-4ab1-acc5-b4f27fda082a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event System">
+      <UniqueIdentifier>{0eda112b-92fb-4118-92e7-1caa987287ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{f2232afd-5bc8-4815-8b14-96cf4ed9ac2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{94736030-d07b-440d-b651-bcdaded32166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Importer">
+      <UniqueIdentifier>{791b9611-daa1-49b7-9582-62db4b84002b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Tools">
+      <UniqueIdentifier>{9b0925aa-588e-4517-a457-1eebe02cf36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multithreaded">
+      <UniqueIdentifier>{ad013f31-d7f3-4e89-bc3e-865bd9150693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager">
+      <UniqueIdentifier>{333f18d1-db42-4089-83ba-47085a5e2e66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Systems\Game.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Systems\IOHandler.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Systems\Player.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Systems\Time Utility.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Color4f.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Element.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Particle.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\RenderVector.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Vector2f.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Vector3f.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\VertexData.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\Light.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\LightManager.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\Material.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\OpenGLFunctions.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\Renderer.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\Shader.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\Skybox.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\Texture.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Console\CommandParser.hpp">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Console\Console.hpp">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Console\ConsoleLog.hpp">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Console\FontHandler.hpp">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Console\FontRenderer.hpp">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Console\Glyph.hpp">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugAABB3.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugArrow.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugElement.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugGraphics.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugLine.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugPoint.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugSphere.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Internal Dependencies\geometry.h">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Internal Dependencies\glext.h">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Internal Dependencies\pugiconfig.hpp">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Internal Dependencies\pugixml.hpp">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Internal Dependencies\stb_image.h">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Internal Dependencies\TangentBitangentCalculator.hpp">
+      <Filter>Internal Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\NamedProperties.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\EventSystemHandler.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\EventBroadcastNode.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\EventSystemHelper.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\EventSubscriberNode.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Utility\XMLParser.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\EventSubscriberInterface.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event System\EventSubscriberTest.hpp">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Importer\MaxImporter.hpp">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Graphics\DebugMultiPoly.hpp">
+      <Filter>Debug Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\FrameBuffer.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Utility\StringUtility.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Vector2i.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\BoneVertexData.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rendering\RenderWrapper.hpp">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Systems\GameClock.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Tools\ProfileSection.hpp">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Tools\ErrorWarningAssert.hpp">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Debug Tools\ProfileOutput.hpp">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Systems\CommandletHandler.hpp">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Multithreaded\JobManager.hpp">
+      <Filter>Multithreaded</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Multithreaded\ThreadedJob.hpp">
+      <Filter>Multithreaded</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Multithreaded\ThreadedWorker.hpp">
+      <Filter>Multithreaded</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Multithreaded\LoadFileJob.hpp">
+      <Filter>Multithreaded</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Multithreaded\HashBufferJob.hpp">
+      <Filter>Multithreaded</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Multithreaded\ReverseBufferJob.hpp">
+      <Filter>Multithreaded</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Memory Manager\MemoryPool.hpp">
+      <Filter>Memory Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Memory Manager\MemoryMetadata.hpp">
+      <Filter>Memory Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Memory Manager\MemoryManager.hpp">
+      <Filter>Memory Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Primitives\Color3b.hpp">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Systems\IOHandler.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Primitives\Particle.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\Light.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\LightManager.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\Material.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\OpenGLFunctions.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\Renderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\Shader.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\Texture.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Console\CommandParser.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Console\Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Console\ConsoleLog.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Console\FontHandler.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Console\FontRenderer.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Console\Glyph.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugAABB3.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugArrow.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugElement.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugLine.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugPoint.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugSphere.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Internal Dependencies\FBO_Sample_Code.cpp">
+      <Filter>Internal Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Internal Dependencies\pugixml.cpp">
+      <Filter>Internal Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Internal Dependencies\stb_image.c">
+      <Filter>Internal Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Internal Dependencies\TangentBitangentSample.cpp">
+      <Filter>Internal Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Event System\NamedProperties.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Event System\EventSystemHelper.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Utility\XMLParser.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Event System\EventSubscriberNode.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Event System\EventSystemHandler.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Importer\MaxImporter.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Graphics\DebugMultiPoly.cpp">
+      <Filter>Debug Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\FrameBuffer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Primitives\Vector2i.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Primitives\Vector2f.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Primitives\Element.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rendering\RenderWrapper.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Systems\GameClock.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Tools\ProfileSection.cpp">
+      <Filter>Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Debug Tools\ErrorWarningAssert.cpp">
+      <Filter>Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Systems\CommandletHandler.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Multithreaded\JobManager.cpp">
+      <Filter>Multithreaded</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Multithreaded\ThreadedWorker.cpp">
+      <Filter>Multithreaded</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Multithreaded\LoadFileJob.cpp">
+      <Filter>Multithreaded</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Multithreaded\HashBufferJob.cpp">
+      <Filter>Multithreaded</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Multithreaded\ReverseBufferJob.cpp">
+      <Filter>Multithreaded</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Memory Manager\MemoryManager.cpp">
+      <Filter>Memory Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Memory Manager\MemoryPool.cpp">
+      <Filter>Memory Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Memory Manager\MemoryMetadata.cpp">
+      <Filter>Memory Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Primitives\Color4f.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Primitives\Color3b.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code\Shaders\EarthquakeFBO.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\FixedFunction.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\FixedFunction.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\FixedFunctionFBO.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\FixedFunctionFBO.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\InvertSaturation.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\MyFirstShader.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\MyFirstShader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\MySecondShader.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\MySecondShader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\Shimmering.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\ShowDepthFBO.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\StencilFBO.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Code\Shaders\WavyFBO.fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\UnitTest.xml">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\IYAMATEST.CHUMBA">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\BOY.CHUMBA">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\zax_walking.CHUMBA">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\boy-turbosmooth.CHUMBA">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\MATRIIIX.CHUMBA">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Demo Driver\Demo Driver\Data\Final1.CHUMBA">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Code\Shaders\SkinnedBones.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

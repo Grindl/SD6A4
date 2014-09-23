@@ -1,0 +1,129 @@
+﻿Build started 5/14/2014 9:22:36 PM.
+     1>Project "D:\Documents\Visual Studio Projects\SoftDev Post 2\EngineCore\EngineCore.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\EngineCore.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\EngineCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Code\Console\CommandParser.cpp Code\Console\Console.cpp Code\Console\ConsoleLog.cpp Code\Console\FontHandler.cpp Code\Console\FontRenderer.cpp Code\Console\Glyph.cpp "Code\Debug Graphics\DebugAABB3.cpp" "Code\Debug Graphics\DebugArrow.cpp" "Code\Debug Graphics\DebugElement.cpp" "Code\Debug Graphics\DebugLine.cpp" "Code\Debug Graphics\DebugMultiPoly.cpp" "Code\Debug Graphics\DebugPoint.cpp" "Code\Debug Graphics\DebugSphere.cpp" "Code\Event System\EventSubscriberNode.cpp" "Code\Event System\EventSystemHandler.cpp" "Code\Event System\EventSystemHelper.cpp" "Code\Event System\NamedProperties.cpp" Code\Importer\MaxImporter.cpp "Code\Internal Dependencies\FBO_Sample_Code.cpp" "Code\Internal Dependencies\pugixml.cpp" "Code\Internal Dependencies\TangentBitangentSample.cpp" Code\Primitives\Element.cpp Code\Primitives\Particle.cpp Code\Primitives\Vector2f.cpp Code\Primitives\Vector2i.cpp Code\Rendering\FrameBuffer.cpp Code\Rendering\Light.cpp Code\Rendering\LightManager.cpp Code\Rendering\Material.cpp Code\Rendering\OpenGLFunctions.cpp Code\Rendering\Renderer.cpp Code\Rendering\Shader.cpp Code\Rendering\Texture.cpp Code\Systems\Game.cpp Code\Systems\IOHandler.cpp Code\Utility\XMLParser.cpp
+         CommandParser.cpp
+         Console.cpp
+     1>Code\Console\Console.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         ConsoleLog.cpp
+         FontHandler.cpp
+     1>Code\Console\FontHandler.cpp(20): warning C4244: '=' : conversion from 'unsigned int' to 'char', possible loss of data
+         FontRenderer.cpp
+     1>Code\Console\FontRenderer.cpp(47): warning C4189: 'TOOBIGTOFAIL' : local variable is initialized but not referenced
+         Glyph.cpp
+         DebugAABB3.cpp
+         DebugArrow.cpp
+         DebugElement.cpp
+         DebugLine.cpp
+         DebugMultiPoly.cpp
+     1>Code\Debug Graphics\DebugMultiPoly.cpp(34): warning C4100: 'depthTest' : unreferenced formal parameter
+     1>Code\Debug Graphics\DebugMultiPoly.cpp(34): warning C4100: 'displayForSeconds' : unreferenced formal parameter
+     1>Code\Debug Graphics\DebugMultiPoly.cpp(34): warning C4100: 'sideColor' : unreferenced formal parameter
+     1>Code\Debug Graphics\DebugMultiPoly.cpp(34): warning C4100: 'origin' : unreferenced formal parameter
+     1>Code\Debug Graphics\DebugMultiPoly.cpp(90): warning C4189: 'matrixFrame' : local variable is initialized but not referenced
+         DebugPoint.cpp
+         DebugSphere.cpp
+         EventSubscriberNode.cpp
+         EventSystemHandler.cpp
+     1>Code\Event System\EventSystemHandler.cpp(16): warning C4100: 'callbackObject' : unreferenced formal parameter
+     1>Code\Event System\EventSystemHandler.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+         EventSystemHelper.cpp
+     1>d:\documents\visual studio projects\softdev post 2\enginecore\code\event system\EventSubscriberTest.hpp(14): warning C4100: 'arguments' : unreferenced formal parameter
+     1>d:\documents\visual studio projects\softdev post 2\enginecore\code\event system\EventSubscriberTest.hpp(16): warning C4189: 'charlieReached' : local variable is initialized but not referenced
+     1>Code\Event System\EventSystemHelper.cpp(62): warning C4100: 'params' : unreferenced formal parameter
+     1>Code\Event System\EventSystemHelper.cpp(64): warning C4189: 'alphaCallback' : local variable is initialized but not referenced
+     1>Code\Event System\EventSystemHelper.cpp(68): warning C4100: 'params' : unreferenced formal parameter
+     1>Code\Event System\EventSystemHelper.cpp(70): warning C4189: 'bravoCallback' : local variable is initialized but not referenced
+         NamedProperties.cpp
+         MaxImporter.cpp
+     1>Code\Importer\MaxImporter.cpp(90): warning C4100: 'out_size' : unreferenced formal parameter
+     1>Code\Importer\MaxImporter.cpp(90): warning C4100: 'fileName' : unreferenced formal parameter
+     1>Code\Importer\MaxImporter.cpp(252): warning C4018: '<' : signed/unsigned mismatch
+     1>Code\Importer\MaxImporter.cpp(162): warning C4189: 'currentNode' : local variable is initialized but not referenced
+         FBO_Sample_Code.cpp
+         pugixml.cpp
+         Compiling...
+         TangentBitangentSample.cpp
+         Element.cpp
+         Particle.cpp
+         Vector2f.cpp
+         Vector2i.cpp
+         FrameBuffer.cpp
+     1>Code\Rendering\FrameBuffer.cpp(100): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>Code\Rendering\FrameBuffer.cpp(103): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>Code\Rendering\FrameBuffer.cpp(103): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>Code\Rendering\FrameBuffer.cpp(106): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+         Light.cpp
+         LightManager.cpp
+         Material.cpp
+         OpenGLFunctions.cpp
+         Renderer.cpp
+         Shader.cpp
+     1>Code\Rendering\Shader.cpp(76): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         Texture.cpp
+     1>Code\Rendering\Texture.cpp(102): warning C4189: 'TEXTURENOTFOUND' : local variable is initialized but not referenced
+         Game.cpp
+         IOHandler.cpp
+         XMLParser.cpp
+     1>Code\Utility\XMLParser.cpp(320): warning C4189: 'carAge' : local variable is initialized but not referenced
+     1>Code\Utility\XMLParser.cpp(319): warning C4189: 'carAttributesIsValid' : local variable is initialized but not referenced
+     1>Code\Utility\XMLParser.cpp(309): warning C4189: 'rootIsValid' : local variable is initialized but not referenced
+     1>Code\Utility\XMLParser.cpp(312): warning C4189: 'bearChildrenIsValid' : local variable is initialized but not referenced
+     1>Code\Utility\XMLParser.cpp(318): warning C4189: 'carChildrenIsValid' : local variable is initialized but not referenced
+     1>Code\Utility\XMLParser.cpp(313): warning C4189: 'bearAttributesIsValid' : local variable is initialized but not referenced
+     1>Code\Utility\XMLParser.cpp(315): warning C4189: 'bearSpeed' : local variable is initialized but not referenced
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "Code\Internal Dependencies\stb_image.c"
+         stb_image.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Documents\Visual Studio Projects\SoftDev Post 2\EngineCore\Release\EngineCore.lib" /NOLOGO /LTCG Release\CommandParser.obj
+         Release\Console.obj
+         Release\ConsoleLog.obj
+         Release\FontHandler.obj
+         Release\FontRenderer.obj
+         Release\Glyph.obj
+         Release\DebugAABB3.obj
+         Release\DebugArrow.obj
+         Release\DebugElement.obj
+         Release\DebugLine.obj
+         Release\DebugMultiPoly.obj
+         Release\DebugPoint.obj
+         Release\DebugSphere.obj
+         Release\EventSubscriberNode.obj
+         Release\EventSystemHandler.obj
+         Release\EventSystemHelper.obj
+         Release\NamedProperties.obj
+         Release\MaxImporter.obj
+         Release\FBO_Sample_Code.obj
+         Release\pugixml.obj
+         Release\stb_image.obj
+         Release\TangentBitangentSample.obj
+         Release\Element.obj
+         Release\Particle.obj
+         Release\Vector2f.obj
+         Release\Vector2i.obj
+         Release\FrameBuffer.obj
+         Release\Light.obj
+         Release\LightManager.obj
+         Release\Material.obj
+         Release\OpenGLFunctions.obj
+         Release\Renderer.obj
+         Release\Shader.obj
+         Release\Texture.obj
+         Release\Game.obj
+         Release\IOHandler.obj
+         Release\XMLParser.obj
+         EngineCore.vcxproj -> D:\Documents\Visual Studio Projects\SoftDev Post 2\EngineCore\Release\EngineCore.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\EngineCore.unsuccessfulbuild".
+         Touching "Release\EngineCore.lastbuildstate".
+     1>Done Building Project "D:\Documents\Visual Studio Projects\SoftDev Post 2\EngineCore\EngineCore.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.61
